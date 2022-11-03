@@ -1,0 +1,37 @@
+.nav{
+    grid-area: n;
+    background-color: beige;
+padding: 20px;
+}
+
+.item a{
+    color: black;
+    text-transform: none;
+}
+
+.item a.activeLink{
+    color: gold
+}
+
+
+img {
+
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+}
+
+.column img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.block{
+display: flex;
+    flex-direction: column;
+align-items: center;
+    margin: 10px;
+}
