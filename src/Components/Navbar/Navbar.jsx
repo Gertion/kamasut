@@ -15,6 +15,9 @@ const Navbar = (props) => {
                 <NavLink to="/Dialogs" className={navData => navData.isActive ? navColor.activeLink : navColor.item}>Messages</NavLink>
             </div>
             <div className={navColor.item}>
+                <NavLink to="/Users" className={navData => navData.isActive ? navColor.activeLink : navColor.item}>Users</NavLink>
+            </div>
+            <div className={navColor.item}>
                 <NavLink to="/News" className={navData => navData.isActive ? navColor.activeLink : navColor.item}>News</NavLink>
             </div>
             <div className={navColor.item}>
